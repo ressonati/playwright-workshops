@@ -10,5 +10,23 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.58.2",
+    "playwright-core": "^1.58.2",
+    "undici-types": "^7.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ressonati/playwright-workshops.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ressonati/playwright-workshops/issues"
+  },
+  "homepage": "https://github.com/ressonati/playwright-workshops#readme"
 }
